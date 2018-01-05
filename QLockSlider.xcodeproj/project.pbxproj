@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1CE9CB51FFF60C4004B0B5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE9CB41FFF60C4004B0B5D /* AppDelegate.m */; };
+		F1CE9CB81FFF60C4004B0B5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE9CB71FFF60C4004B0B5D /* ViewController.m */; };
+		F1CE9CBB1FFF60C4004B0B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CE9CB91FFF60C4004B0B5D /* Main.storyboard */; };
+		F1CE9CBD1FFF60C4004B0B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CE9CBC1FFF60C4004B0B5D /* Assets.xcassets */; };
+		F1CE9CC01FFF60C4004B0B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CE9CBE1FFF60C4004B0B5D /* LaunchScreen.storyboard */; };
+		F1CE9CC31FFF60C4004B0B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE9CC21FFF60C4004B0B5D /* main.m */; };
+		F1CE9CCD1FFF60C4004B0B5D /* QLockSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE9CCC1FFF60C4004B0B5D /* QLockSliderTests.m */; };
+		F1CE9CD81FFF60C4004B0B5D /* QLockSliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE9CD71FFF60C4004B0B5D /* QLockSliderUITests.m */; };
+		F1CE9CE81FFF6114004B0B5D /* QLockSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE9CE61FFF6114004B0B5D /* QLockSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1CE9CC91FFF60C4004B0B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1CE9CA81FFF60C4004B0B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1CE9CAF1FFF60C4004B0B5D;
+			remoteInfo = QLockSlider;
+		};
+		F1CE9CD41FFF60C4004B0B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1CE9CA81FFF60C4004B0B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1CE9CAF1FFF60C4004B0B5D;
+			remoteInfo = QLockSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1CE9CB01FFF60C4004B0B5D /* QLockSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLockSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CE9CB31FFF60C4004B0B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1CE9CB41FFF60C4004B0B5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1CE9CB61FFF60C4004B0B5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1CE9CB71FFF60C4004B0B5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1CE9CBA1FFF60C4004B0B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1CE9CBC1FFF60C4004B0B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1CE9CBF1FFF60C4004B0B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1CE9CC11FFF60C4004B0B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CE9CC21FFF60C4004B0B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1CE9CC81FFF60C4004B0B5D /* QLockSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLockSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CE9CCC1FFF60C4004B0B5D /* QLockSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLockSliderTests.m; sourceTree = "<group>"; };
+		F1CE9CCE1FFF60C4004B0B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CE9CD31FFF60C4004B0B5D /* QLockSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLockSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CE9CD71FFF60C4004B0B5D /* QLockSliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLockSliderUITests.m; sourceTree = "<group>"; };
+		F1CE9CD91FFF60C4004B0B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CE9CE61FFF6114004B0B5D /* QLockSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLockSlider.m; sourceTree = "<group>"; };
+		F1CE9CE71FFF6114004B0B5D /* QLockSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLockSlider.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1CE9CAD1FFF60C4004B0B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CE9CC51FFF60C4004B0B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CE9CD01FFF60C4004B0B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1CE9CA71FFF60C4004B0B5D = {
+			isa = PBXGroup;
+			children = (
+				F1CE9CB21FFF60C4004B0B5D /* QLockSlider */,
+				F1CE9CCB1FFF60C4004B0B5D /* QLockSliderTests */,
+				F1CE9CD61FFF60C4004B0B5D /* QLockSliderUITests */,
+				F1CE9CB11FFF60C4004B0B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1CE9CB11FFF60C4004B0B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CE9CB01FFF60C4004B0B5D /* QLockSlider.app */,
+				F1CE9CC81FFF60C4004B0B5D /* QLockSliderTests.xctest */,
+				F1CE9CD31FFF60C4004B0B5D /* QLockSliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CE9CB21FFF60C4004B0B5D /* QLockSlider */ = {
+			isa = PBXGroup;
+			children = (
+				F1CE9CE51FFF610A004B0B5D /* QLockSlider */,
+				F1CE9CB31FFF60C4004B0B5D /* AppDelegate.h */,
+				F1CE9CB41FFF60C4004B0B5D /* AppDelegate.m */,
+				F1CE9CB61FFF60C4004B0B5D /* ViewController.h */,
+				F1CE9CB71FFF60C4004B0B5D /* ViewController.m */,
+				F1CE9CB91FFF60C4004B0B5D /* Main.storyboard */,
+				F1CE9CBC1FFF60C4004B0B5D /* Assets.xcassets */,
+				F1CE9CBE1FFF60C4004B0B5D /* LaunchScreen.storyboard */,
+				F1CE9CC11FFF60C4004B0B5D /* Info.plist */,
+				F1CE9CC21FFF60C4004B0B5D /* main.m */,
+			);
+			path = QLockSlider;
+			sourceTree = "<group>";
+		};
+		F1CE9CCB1FFF60C4004B0B5D /* QLockSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1CE9CCC1FFF60C4004B0B5D /* QLockSliderTests.m */,
+				F1CE9CCE1FFF60C4004B0B5D /* Info.plist */,
+			);
+			path = QLockSliderTests;
+			sourceTree = "<group>";
+		};
+		F1CE9CD61FFF60C4004B0B5D /* QLockSliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1CE9CD71FFF60C4004B0B5D /* QLockSliderUITests.m */,
+				F1CE9CD91FFF60C4004B0B5D /* Info.plist */,
+			);
+			path = QLockSliderUITests;
+			sourceTree = "<group>";
+		};
+		F1CE9CE51FFF610A004B0B5D /* QLockSlider */ = {
+			isa = PBXGroup;
+			children = (
+				F1CE9CE71FFF6114004B0B5D /* QLockSlider.h */,
+				F1CE9CE61FFF6114004B0B5D /* QLockSlider.m */,
+			);
+			path = QLockSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1CE9CAF1FFF60C4004B0B5D /* QLockSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CE9CDC1FFF60C4004B0B5D /* Build configuration list for PBXNativeTarget "QLockSlider" */;
+			buildPhases = (
+				F1CE9CAC1FFF60C4004B0B5D /* Sources */,
+				F1CE9CAD1FFF60C4004B0B5D /* Frameworks */,
+				F1CE9CAE1FFF60C4004B0B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLockSlider;
+			productName = QLockSlider;
+			productReference = F1CE9CB01FFF60C4004B0B5D /* QLockSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1CE9CC71FFF60C4004B0B5D /* QLockSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CE9CDF1FFF60C4004B0B5D /* Build configuration list for PBXNativeTarget "QLockSliderTests" */;
+			buildPhases = (
+				F1CE9CC41FFF60C4004B0B5D /* Sources */,
+				F1CE9CC51FFF60C4004B0B5D /* Frameworks */,
+				F1CE9CC61FFF60C4004B0B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1CE9CCA1FFF60C4004B0B5D /* PBXTargetDependency */,
+			);
+			name = QLockSliderTests;
+			productName = QLockSliderTests;
+			productReference = F1CE9CC81FFF60C4004B0B5D /* QLockSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1CE9CD21FFF60C4004B0B5D /* QLockSliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CE9CE21FFF60C4004B0B5D /* Build configuration list for PBXNativeTarget "QLockSliderUITests" */;
+			buildPhases = (
+				F1CE9CCF1FFF60C4004B0B5D /* Sources */,
+				F1CE9CD01FFF60C4004B0B5D /* Frameworks */,
+				F1CE9CD11FFF60C4004B0B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1CE9CD51FFF60C4004B0B5D /* PBXTargetDependency */,
+			);
+			name = QLockSliderUITests;
+			productName = QLockSliderUITests;
+			productReference = F1CE9CD31FFF60C4004B0B5D /* QLockSliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CE9CA81FFF60C4004B0B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = cailianfeng;
+				TargetAttributes = {
+					F1CE9CAF1FFF60C4004B0B5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F1CE9CC71FFF60C4004B0B5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1CE9CAF1FFF60C4004B0B5D;
+					};
+					F1CE9CD21FFF60C4004B0B5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1CE9CAF1FFF60C4004B0B5D;
+					};
+				};
+			};
+			buildConfigurationList = F1CE9CAB1FFF60C4004B0B5D /* Build configuration list for PBXProject "QLockSlider" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1CE9CA71FFF60C4004B0B5D;
+			productRefGroup = F1CE9CB11FFF60C4004B0B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CE9CAF1FFF60C4004B0B5D /* QLockSlider */,
+				F1CE9CC71FFF60C4004B0B5D /* QLockSliderTests */,
+				F1CE9CD21FFF60C4004B0B5D /* QLockSliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1CE9CAE1FFF60C4004B0B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CE9CC01FFF60C4004B0B5D /* LaunchScreen.storyboard in Resources */,
+				F1CE9CBD1FFF60C4004B0B5D /* Assets.xcassets in Resources */,
+				F1CE9CBB1FFF60C4004B0B5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CE9CC61FFF60C4004B0B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CE9CD11FFF60C4004B0B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1CE9CAC1FFF60C4004B0B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CE9CB81FFF60C4004B0B5D /* ViewController.m in Sources */,
+				F1CE9CE81FFF6114004B0B5D /* QLockSlider.m in Sources */,
+				F1CE9CC31FFF60C4004B0B5D /* main.m in Sources */,
+				F1CE9CB51FFF60C4004B0B5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CE9CC41FFF60C4004B0B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CE9CCD1FFF60C4004B0B5D /* QLockSliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CE9CCF1FFF60C4004B0B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CE9CD81FFF60C4004B0B5D /* QLockSliderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1CE9CCA1FFF60C4004B0B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1CE9CAF1FFF60C4004B0B5D /* QLockSlider */;
+			targetProxy = F1CE9CC91FFF60C4004B0B5D /* PBXContainerItemProxy */;
+		};
+		F1CE9CD51FFF60C4004B0B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1CE9CAF1FFF60C4004B0B5D /* QLockSlider */;
+			targetProxy = F1CE9CD41FFF60C4004B0B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1CE9CB91FFF60C4004B0B5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CE9CBA1FFF60C4004B0B5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1CE9CBE1FFF60C4004B0B5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CE9CBF1FFF60C4004B0B5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1CE9CDA1FFF60C4004B0B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1CE9CDB1FFF60C4004B0B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1CE9CDD1FFF60C4004B0B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLockSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.elm.com.QLockSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1CE9CDE1FFF60C4004B0B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLockSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.elm.com.QLockSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1CE9CE01FFF60C4004B0B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLockSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.elm.com.QLockSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLockSlider.app/QLockSlider";
+			};
+			name = Debug;
+		};
+		F1CE9CE11FFF60C4004B0B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLockSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.elm.com.QLockSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLockSlider.app/QLockSlider";
+			};
+			name = Release;
+		};
+		F1CE9CE31FFF60C4004B0B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLockSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.elm.com.QLockSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QLockSlider;
+			};
+			name = Debug;
+		};
+		F1CE9CE41FFF60C4004B0B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLockSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.elm.com.QLockSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QLockSlider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1CE9CAB1FFF60C4004B0B5D /* Build configuration list for PBXProject "QLockSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CE9CDA1FFF60C4004B0B5D /* Debug */,
+				F1CE9CDB1FFF60C4004B0B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CE9CDC1FFF60C4004B0B5D /* Build configuration list for PBXNativeTarget "QLockSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CE9CDD1FFF60C4004B0B5D /* Debug */,
+				F1CE9CDE1FFF60C4004B0B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CE9CDF1FFF60C4004B0B5D /* Build configuration list for PBXNativeTarget "QLockSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CE9CE01FFF60C4004B0B5D /* Debug */,
+				F1CE9CE11FFF60C4004B0B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CE9CE21FFF60C4004B0B5D /* Build configuration list for PBXNativeTarget "QLockSliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CE9CE31FFF60C4004B0B5D /* Debug */,
+				F1CE9CE41FFF60C4004B0B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1CE9CA81FFF60C4004B0B5D /* Project object */;
+}
